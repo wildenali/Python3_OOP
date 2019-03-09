@@ -30,3 +30,8 @@ print(gorengan1.__dict__)
 
 # cara menggunakan attributnya gimana
 print(gorengan1.nama)
+
+print()
+
+print(gorengan3.nama)
+print(gorengan3.harga)
