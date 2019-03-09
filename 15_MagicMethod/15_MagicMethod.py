@@ -1,5 +1,5 @@
 # Contoh Magic Method
-# keyword yang ada di python, yang bisa di pakai
+# keyword yang ada di python, yang bisa di pakai.
 # __init__              -> di panggil saat class di buat
 # __repr__ dan __str__  -> adalah sama aja, perbedaannya adalah
     # __repr__              -> dia di pakai pas DEBUG aja
