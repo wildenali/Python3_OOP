@@ -16,3 +16,12 @@ print(Gorengan.jumlah)
 gorengan2 = Gorengan("gehu", 1500)
 print(Gorengan.jumlah)
 print(Gorengan.__dict__)
+
+
+""" hasil di console
+Gorengan cireng
+1
+Gorengan gehu
+2
+{'__dict__': <attribute '__dict__' of 'Gorengan' objects>, 'jumlah': 2, '__init__': <function Gorengan.__init__ at 0x7fec444947b8>, '__module__': '__main__', '__weakref__': <attribute '__weakref__' of 'Gorengan' objects>, '__doc__': None}
+"""
