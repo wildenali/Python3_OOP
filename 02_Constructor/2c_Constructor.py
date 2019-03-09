@@ -11,3 +11,8 @@ gorengan2 = Gorengan("gehu")
 
 print(gorengan1.nama)
 print(gorengan2.nama)
+
+""" hasil di console
+cireng
+gehu
+"""

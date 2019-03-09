@@ -16,3 +16,13 @@ print(gorengan1.nama)
 print(gorengan2.nama)
 print(gorengan1.harga)
 print(gorengan2.harga)
+
+
+""" hasil di console
+{'nama:' 'cireng', 'harga:' 500}
+{'nama:' 'gehu', 'harga:' 1500}
+cireng
+gehu
+500
+1500
+"""

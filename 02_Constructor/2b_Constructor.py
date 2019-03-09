@@ -3,8 +3,13 @@
 
 # Constructor yang digunakan adalah __init__
 class Gorengan:
-    def __init__(self):
-        print("cireng")
+    def __init__(self, x): #self itu adalah gorengan1, gorengan2, dll
+        print("cireng", x)
 
-# panggil class Gorengan
-gorengan = Gorengan()
+gorengan1 = Gorengan(1000)
+gorengan2 = Gorengan(1500)
+
+""" hasil di console
+cireng 1000
+cireng 1500
+"""
