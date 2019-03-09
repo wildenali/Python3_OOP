@@ -28,3 +28,8 @@ axe = Hero_strength('axe')
 
 # print(lina.name, " ", lina.health)
 # print(axe.name, " ", axe.health)
+
+"""output nya
+lina dengan health: 100
+axe dengan health: 200
+"""
