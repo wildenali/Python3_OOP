@@ -1,6 +1,5 @@
 """
-OVERRIDE METHOD adalah
-menimpa
+OVERRIDE METHOD adalah menimpa
 """
 
 class Hero:
