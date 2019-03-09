@@ -1,3 +1,5 @@
+# turunan yang banyak
+
 class Team:
     def setTeam(self, team):
         self.team = team
@@ -23,3 +25,9 @@ Ucup.setTipe("cundang")
 
 Ucup.showTeam()
 Ucup.showTipe()
+
+
+""" outputnya
+merah
+cundang
+"""
