@@ -1,9 +1,9 @@
 # Contoh Magic Method
-# __init__  -> di panggil saat class di buat
-
-# __repr__ dan __str__ adalah sama aja, perbedaannya adalah
-# __repr__  -> dia di pakai pas DEBUG aja
-# __str__   -> ini di pakai kalau udah PRODUKSI
+# keyword yang ada di python, yang bisa di pakai
+# __init__              -> di panggil saat class di buat
+# __repr__ dan __str__  -> adalah sama aja, perbedaannya adalah
+    # __repr__              -> dia di pakai pas DEBUG aja
+    # __str__               -> ini di pakai kalau udah PRODUKSI
 
 class Mangga:
     def __init__(self, nama, jumlah):
@@ -31,3 +31,11 @@ print(belanja1)
 print(belanja2)
 print(belanja1 + belanja2)
 print(belanja1.__dict__)
+
+
+"""outputnya
+Mangga: arumanis dengan jumlah: 10
+Mangga: mana lagi dengan jumlah: 30
+40
+objek ini mempunyai nama dan jumlah
+"""
