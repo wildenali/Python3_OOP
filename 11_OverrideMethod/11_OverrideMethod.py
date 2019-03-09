@@ -44,3 +44,13 @@ axe.showInfo()
 
 # jadi si show info si lina meng override showInfo nya si class Hero
 # sedangkan si showInfo si axe, dia menggunakan showInfo si class Hero
+
+
+""" outputnya
+showInfo di subclass Hero_intelligent
+lina
+	Tipe: intelligent,
+	health: 100
+showInfo di class Hero
+axe health: 200
+"""
