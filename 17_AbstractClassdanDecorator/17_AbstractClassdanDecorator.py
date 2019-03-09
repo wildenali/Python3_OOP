@@ -27,3 +27,8 @@ class PushButton(Button):
 
 tombol1 = PushButton("www.wildenali.com")
 tombol1.click()
+
+
+"""outputnya
+Go To: www.wildenali.com
+"""
