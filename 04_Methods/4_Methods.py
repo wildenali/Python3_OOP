@@ -1,7 +1,7 @@
 # Apa itu Methods?
 """
 method itu adalah misalnya jika ada tombol nih
-nah si tombolnya misalnya klo di klik warnanya berubah
+nah si tombolnya misalnya klo di klik(method) warnanya berubah
 atau kalau tombolnya di klik maka bentuknya berubah
 nah something yang berubah itu method
 nah si method ini dapat digunakan berulang ulang
@@ -13,6 +13,9 @@ Method ini seperti function, tetapi posisi dia ada di dalam class
 nah, kalau function ini ada di luar class maka dia disebut ya function
 kalau di dalam CLASS ya METHOD
 gitu toh
+
+ada method yang langsung berinteraksi dengan client,
+ada yang berinteraksi dengan class lain
 
 langsung aja ke CONTOH
 """
@@ -51,3 +54,12 @@ hero1.siapa()
 print(hero1.getHealth())
 hero1.healthUp(1000)
 print(hero1.getHealth())
+
+
+""" hasil di console
+{'health': 100, 'armor': 5, 'name': 'sniper', 'power': 10}
+{'health': 90, 'armor': 10, 'name': 'mario bros', 'power': 5}
+snipper
+100
+1100
+"""
