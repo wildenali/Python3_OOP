@@ -21,7 +21,7 @@ class PushButton(Button):
     def link(self,input):
         self.__link = input
 
-    @link.getter    # ini setter
+    @link.getter    # ini getter
     def link(self):
         return self.__link
 
