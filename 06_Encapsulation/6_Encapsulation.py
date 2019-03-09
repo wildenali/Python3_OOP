@@ -13,7 +13,7 @@ class Hero:
         self.__attPower = attackPower
 
     """
-    gini coy, kan si name itu di variable yg di private ya
+    gini, kan si name itu di variable yg di private ya
     nah sekarang gimana caranya kita mengakses atau mengganti si variable yg private tersebut di luar class
     caranya adalah kita bikin dulu method, namanya
     GETTER dan SETTER
@@ -41,3 +41,10 @@ print(eartshaker.getName())
 print(eartshaker.getHealth())
 eartshaker.diserang(5)
 print(eartshaker.getHealth())
+
+
+""" outputnya
+eartshaker
+50
+45
+"""
