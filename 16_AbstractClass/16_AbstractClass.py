@@ -1,5 +1,6 @@
 # membuat class abstract
 # abc = abstract base class
+
 from abc import ABC,abstractmethod
 
 class Button(ABC):
@@ -20,3 +21,9 @@ tombol2 = RadioButton()
 
 tombol1.click()
 tombol2.click()
+
+
+"""outputnya
+push button click
+radio button click
+"""
